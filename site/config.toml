@@ -1,0 +1,28 @@
+title = "Ben Anderson"
+baseURL = "https://example.com/"
+PygmentsStyle = "true"
+enableGitInfo = true
+
+[params]
+lastName = "Anderson"
+showEducation = true
+phone = "7863514056"
+profileImage = "img/62520351.jpg"
+favicon = "img/62520351.jpg"
+address = "Fort Collins, CO"
+showProjects = true
+firstName = "Ben"
+email = "andersjbe@gmail.com"
+showSkills = true
+
+[[params.handles]]
+name = "Github"
+link = "https://github.com/andersjbe"
+
+[params.google]
+
+[params.google.analytics]
+trackerID = "XX-123446-01"
+
+[outputs]
+home = ["HTML"]
