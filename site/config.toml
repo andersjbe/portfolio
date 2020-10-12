@@ -2,6 +2,7 @@ title = "Ben Anderson"
 baseURL = "https://andersjbe.github.io/portfolio/"
 PygmentsStyle = "true"
 enableGitInfo = true
+publishDir = "docs"
 
 [params]
 lastName = "Anderson"

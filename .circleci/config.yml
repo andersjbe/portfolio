@@ -17,7 +17,7 @@ jobs:
           command: |
             pwd
             cd /hugo-resume
-            hugo -v -s exampleSite --destination /tmp/public -b http://localhost --themesDir ../..
+            hugo -v -s site --destination /tmp/public -b http://localhost --themesDir ../..
             ls /tmp/public
             if [ ! -f /tmp/public/index.html ];then
               echo "index.html not created, failing"
@@ -28,7 +28,7 @@ jobs:
           background: true
           command: |
             pwd
-            hugo server -v -s exampleSite -b http://localhost --themesDir ../..
+            hugo server -v -s site -b http://localhost --themesDir ../..
       - run:
           name: Check Server  
           command: |
