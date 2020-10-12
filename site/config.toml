@@ -28,9 +28,6 @@ trackerID = "XX-123446-01"
 link = "https://www.linkedin.com/in/ben-anderson-79964266//"
 name = "LinkedIn"
 
-[[params.handles]]
-link = "https://github.com/andersjbe/"
-name = "GitHub"
 
 
 [outputs]
