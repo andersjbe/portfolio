@@ -1,0 +1,13 @@
+[
+  {
+      "grouping":"Languages, Operating Systems & Tools",
+      "skills": ["React","Python","git","linux","bash","javascript"]
+  },
+  {
+    "grouping":"Containers & Cloud",
+      "skills":[
+          {"name":"Docker","link":"https://docker.com"},
+          {"name":"AWS","link":"https://aws.amazon.com"}
+      ]
+  }
+]
