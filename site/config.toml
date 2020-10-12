@@ -1,27 +1,23 @@
 title = "Ben Anderson"
 baseURL = "https://example.com/"
-theme = "hugo-resume"
-languageCode = "en-us"
-PygmentsCodeFences = true
-PygmentsCodeFencesGuessSyntax = true
-PygmentsStyle = "monokai"
-enableGitInfo = false
+PygmentsStyle = "true"
+enableGitInfo = true
 
 [params]
-address = "Fort Collins, CO"
-email = "andersjbe@gmail.com"
-favicon = "/favicon.ico"
-firstName = "Ben"
 lastName = "Anderson"
-phone = ""
-profileImage = "img/avatar.jpg"
 showEducation = true
-showExperience = false
-showOpenSource = false
+phone = "7863514056"
+profileImage = "img/62520351.jpg"
+favicon = "img/62520351.jpg"
+address = "Fort Collins, CO"
 showProjects = true
-showPublications = false
-showQr = false
+firstName = "Ben"
+email = "andersjbe@gmail.com"
 showSkills = true
+
+[[params.handles]]
+name = "Github"
+link = "https://github.com/andersjbe"
 
 [params.google]
 
